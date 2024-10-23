@@ -12,7 +12,7 @@ async function startServer() {
   try {
     // await mongoDB.connect();
     app.listen(SERVER.PORT, () => {
-      console.log(`CompeteAE Server is running at port: ${SERVER.PORT}`);
+      console.log(`ReplyBot Server is running at port: ${SERVER.PORT}`);
     });
   } catch (error) {
     console.error('Error starting server: ', error);
